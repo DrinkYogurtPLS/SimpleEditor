@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SimpleEditor</title>
+    <link rel="stylesheet" href="css/master.css">
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <ul id="tab_container"></ul>
+    </header>
+    <div id="editor"></div>
+    <footer>
+        <ul id="tool_bar">
+            <li id="info"><i class="material-icons">info</i></li>
+            <li id="open"><i class="material-icons">open_in_browser</i></li>
+            <li id="save"><i class="material-icons">get_app</i></li>
+            <li id="undo"><i class="material-icons">undo</i></li>
+            <li id="redo"><i class="material-icons">redo</i></li>
+            <li id="new"><i class="material-icons">note_add</i></li>
+        </ul>
+        <span class="mode"></span>
+    </footer>
+    <script type="text/javascript" src="src/jquery/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="src/ace/ace.js"></script>
+    <script type="text/javascript" src="src/ace/ext-language_tools.js"></script>
+    <script type="text/javascript" src="src/ace/ext-modelist.js"></script>
+    <script type="text/javascript" src="src/ace/ext-statusbar.js"></script>
+    <script type="text/javascript" src="src/main.js"></script>
+</body>
+
+</html>
